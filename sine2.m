@@ -12,4 +12,4 @@ plot(t, y);
 xlabel('Time (s)');
 ylabel('Amplitude');
 title('Sine Wave');
-grid on;
+
