@@ -1,4 +1,7 @@
 % Circular convolution using linear convolution
+clc;
+clear all;
+close all;
 x = [1, 2, 3];
 h = [4, 5, 6];
 N = max(length(x), length(h)); 
