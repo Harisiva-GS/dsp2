@@ -44,8 +44,8 @@ plot(t4,y4,'DisplayName','Continuous');
 hold on;
 stem(t4,y4,'DisplayName','Discrete');
 hold off;
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Sin');
 legend show;
 
@@ -58,8 +58,8 @@ plot(t5,y5,'DisplayName','Continuous');
 hold on;
 stem(t5,y5,'DisplayName','Discrete');
 hold off;
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Cos');
 legend show;
 
@@ -70,8 +70,8 @@ y6 = square(2*pi*f3*t6);
 subplot(3,3,6);
 plot(t6, y6, '-');
 axis([0 1 -2 2]);
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Bipolar');
 
 
@@ -82,8 +82,8 @@ y7 = sqrt(square(2*pi*f4*t7));
 subplot(3,3,7);
 plot(t7, y7, '-');
 axis([0 1 -2 2]);
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Unipolar');
 
 % Exponential Decay
@@ -95,8 +95,8 @@ hold on;
 stem(t9,y9,'DisplayName','Discrete');
 hold off;
 axis([0 1 -2 2]);
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Decaying Exponential');
 legend show;
 
@@ -109,7 +109,7 @@ hold on;
 stem(t8,sin(2*pi*f8*t8),'DisplayName','Discrete');
 hold off;
 axis([0 10 -1 1]);
-xlabel('Amplitude');
-ylabel('Frequency');
+xlabel('Time Index');
+ylabel('Amplitude');
 title('Triangular');
 legend show;
