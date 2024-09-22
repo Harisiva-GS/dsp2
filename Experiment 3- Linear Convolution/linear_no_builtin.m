@@ -43,3 +43,11 @@ for i = 1:len_x
 end
 disp('Linear Convolution Result:');
 disp(y);
+n = 0:len_y-1; 
+figure;
+stem(n, y, 'filled'); 
+title('Linear Convolution of x(n) and h(n)');
+xlabel('n');
+ylabel('y(n)');
+title("Linear Convolution")
+grid on;
