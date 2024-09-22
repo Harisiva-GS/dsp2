@@ -1,6 +1,6 @@
 %Circular Convolution using FFT
 clc;
-clear;
+clear all;
 close all;
 x=input('enter the elements in x[n]:');
 x_ind=input('enter the index of x[n]:');
