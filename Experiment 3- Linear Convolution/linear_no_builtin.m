@@ -1,4 +1,5 @@
-%% Linear Convolution of x(n)=[1 2 1 2]  , h(n)=[3 2 1 2]
+%Q1
+% Linear Convolution of x(n)=[1 2 1 2]  , h(n)=[3 2 1 2]
 
 clc;
 clear;
@@ -25,3 +26,20 @@ axis([-2 2 0 12]);
 xlabel('n');
 ylabel('Amplitude');
 title('Linear Convolution');
+
+%Q2
+%linear convolution of x(n)=[1 2 1 1]  , h(n)=[1 1 1 1]
+
+x = [1, 2, 1, 1];
+h = [1, 1, 1, 1];
+len_x = length(x);
+len_h = length(h);
+len_y = len_x + len_h - 1;
+y = zeros(1, len_y);
+for i = 1:len_x
+    for j = 1:len_h
+        y(i+j-1) = y(i+j-1) + x(i) * h(j);
+    end
+end
+disp('Linear Convolution Result:');
+disp(y);
