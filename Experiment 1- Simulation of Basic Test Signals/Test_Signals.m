@@ -2,8 +2,8 @@
 %% Experiment Number 1 - SIMULATION OF BASIC TEST SIGNALS
 
 clc;
-clear;
-close;
+clear all;
+closea all;
 
 % Unit Impulse 
 t1=-5:1:5;
@@ -56,6 +56,9 @@ f3 = 10;
 y6 = square(2*pi*f3*t6);
 subplot(3,3,6);
 plot(t6, y6, '-');
+xlabel('Amplitude');
+ylabel('Frequency');
+title('Bipolar');
 
 
 % Unipolar
@@ -65,18 +68,26 @@ y7 = sqrt(square(2*pi*f4*t7));
 subplot(3,3,7);
 plot(t7, y7, '-');
 axis([0 1 -2 2]);
+xlabel('Amplitude');
+ylabel('Frequency');
+title('Unipolar');
 
-
-% Exp increasing
-t8 = 0:0.001:1;
-y8 = exp(t8);
-subplot(3,3,8);
-plot(t8, y8, '-');
-axis([0 1 -2 2]);
-
-
+% Deccaying
 t9=0:0.01:1;
 y9=exp(-t9);
 subplot(3,3,9);
 plot(t9,y9, '-');
 axis([0 1 -2 2]);
+xlabel('Amplitude');
+ylabel('Frequency');
+title('Dccaying');
+
+% Triangular
+t8=0:0.25:50;
+f8=5;
+subplot(3,3,8);
+plot(t8,sin(2*pi*f8*t8));
+axis([0 10 -1 1]);
+xlabel('Amplitude');
+ylabel('Frequency');
+title('Triangular');
