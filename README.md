@@ -24,4 +24,19 @@
          <li>FFT Method</li>
        </ul>
      <li>Linear Convoltion using Circular Convolution and Vice versa</li>
+    <li> DFT and IDFT</li>
+     <ul>
+      <li>Without using Built in Function</li>
+       <li>Using Built in Function</li>
+     </ul>
+    <li> Properties of DFT</li>
+    <ul>
+     <li>Linearity</li>
+     <li>Periodicity</li>
+     <li>Circular Time Shift</li>
+     <li>Circular Frequency Shift</li>
+     <li>Multiplication</li>
+     <li>Circular Convolution</li>
+     <li>Parsevals Relation</li>
+    </ul>
    </ol>
