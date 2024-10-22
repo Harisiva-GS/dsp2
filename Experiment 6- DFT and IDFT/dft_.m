@@ -29,10 +29,10 @@ ylabel('Magnitude');
 
 phase = angle(X);
 subplot(2,1,2);
-stem(0:N-1, phase);
+stem(0:N-1,phase,'b');
 title('Phase Spectrum');
 xlabel('Frequency');
-ylabel('Phase')
+ylabel('Phase');
 
 else 
     disp('DFT cannot be calculated');

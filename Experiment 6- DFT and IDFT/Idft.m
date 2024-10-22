@@ -1,6 +1,6 @@
 %IDFT 
 clc;
-clear all;
+clear;
 close all;
 X=input("Enter DFT sequence: ");
 L=length(X);
