@@ -42,5 +42,6 @@ $$
 
 # Observatiom
 
-![image](https://github.com/user-attachments/assets/713cdd2c-d393-4e11-bd96-5836321dd1be)
+![Screenshot 2024-11-09 232947](https://github.com/user-attachments/assets/017699ef-3758-4e19-87c8-9878903523f1)
+
 
