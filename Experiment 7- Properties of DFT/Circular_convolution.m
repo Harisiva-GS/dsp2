@@ -1,7 +1,7 @@
 %Circular convolution property of DFT
 clc;
+clear;
 close all;
-clear all;
 x1 = input("Enter sequence 1:");
 x2 = input("Enter sequence 2:");
 N=max(length(x1),length(x2));
