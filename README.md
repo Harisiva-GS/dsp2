@@ -39,4 +39,9 @@
      <li>Circular Convolution</li>
      <li>Parsevals Relation</li>
     </ul>
+    <li>Overlap Add and Save Method</li>
+    <li>Implemntation of FIR Filters</li>
+    <li>Familiarisation of DSP Hardware</li>
+    <li>Generation of Sine Wave using DSP Kit</li>
+    <li>Linear Convolution using DSP Kit</li>
    </ol>
